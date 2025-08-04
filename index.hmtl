@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JFF Coaching Education Relaunch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    Subject: Level Up Your Coaching Career, {{first_name}}!
+    Preheader: Join 300+ coaches nationwide—applications close Sept 30.
+  -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome Free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-PhhQ+fXc+o4f8KN+4jAq9wT/0AqeJbf6P201qYJdhWiw+JGXSU35mRPTkF00jfk80DrY7SH5tB7i8qHXaYfMqw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* CLIENT RESET */
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0; mso-table-rspace:0; }
+    img { border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
+    body { margin:0; padding:0; width:100% !important; background-color:#f4f4f4; }
+
+    /* TYPOGRAPHY */
+    body, td { font-family:'Poppins', Arial, sans-serif; color:#000; }
+    h1,h2,h3 { font-family:'Inter', Arial, sans-serif; margin:0; }
+    a { text-decoration:none; }
+
+    /* LAYOUT */
+    .wrapper { width:100%; table-layout:fixed; background:#f4f4f4; padding:20px 0; }
+    .container { max-width:600px; margin:0 auto; background:#fff; border-radius:8px; overflow:hidden; }
+
+    /* HEADER */
+    .header { padding:20px; text-align:center; }
+    .header img { max-width:160px; }
+
+    /* HERO */
+    .hero img { width:100%; display:block; }
+
+    /* CONTENT */
+    .content { padding:24px; line-height:1.6; }
+    .content h2 { font-size:24px; color:#007749; margin-bottom:12px; }
+    .content p { font-size:16px; margin-bottom:16px; }
+    .content ul { padding-left:20px; margin-bottom:24px; }
+    .content li { margin-bottom:8px; }
+
+    /* BUTTON */
+    .btn { display:inline-block; background:#007749; color:#fff;
+           font-family:'Inter', Arial, sans-serif; font-size:16px; font-weight:600;
+           padding:14px 24px; border-radius:4px; text-align:center; }
+
+    /* ICONS */
+    .feature-icon { font-size:48px; color:#007749; margin-bottom:8px; }
+    .social-icons i { font-size:20px; margin:0 8px; color:#FFB81C; }
+
+    /* FOOTER */
+    .footer { background:#000; color:#fff; padding:20px; font-size:12px; text-align:center; }
+    .footer a { color:#FFB81C; }
+  </style>
+</head>
+<body>
+  <table role="presentation" class="wrapper" cellpadding="0" cellspacing="0">
+    <tr><td align="center">
+      <table role="presentation" class="container" cellpadding="0" cellspacing="0">
+
+        <!-- HEADER -->
+        <tr>
+          <td class="header">
+            <img src="https://jff.football/wp-content/uploads/2023/01/JFF_Logo.png" alt="JFF Logo">
+          </td>
+        </tr>
+
+        <!-- HERO -->
+        <tr>
+          <td class="hero">
+            <img src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg" alt="Coaching Relaunch">
+          </td>
+        </tr>
+
+        <!-- MAIN CONTENT -->
+        <tr>
+          <td class="content">
+            <!-- Invisible Preheader -->
+            <div style="font-size:1px; color:#f4f4f4; line-height:1px; max-height:0; opacity:0; overflow:hidden;">
+              Join 300+ coaches nationwide—applications close Sept 30.
+            </div>
+
+            <!-- Personalized Greeting -->
+            <p style="font-size:16px; margin-bottom:16px;">Hi <strong>{{first_name}}</strong>,</p>
+
+            <h2>Level Up Your Coaching Career</h2>
+            <p>The Jamaica Football Federation has relaunched its Coaching Education Programme—now C-Level certified by the CONCACAF Coaching Convention.</p>
+
+            <!-- Social Proof & Urgency -->
+            <p style="font-size:14px; color:#555;">Join <strong>300+</strong> coaches who’ve already applied. <em>Only 30 spots left!</em></p>
+
+            <ul>
+              <li>Standardised certifications aligned with world-class best practices</li>
+              <li>Access to advanced workshops, digital modules, and peer mentorship</li>
+              <li>License renewal every three years to keep your credentials current</li>
+            </ul>
+
+            <p style="text-align:center;">
+              <a href="https://jff.football/apply?ref=email_{{first_name}}" class="btn">Apply Now</a>
+            </p>
+
+            <!-- Next Steps -->
+            <p style="font-size:14px; color:#555;">
+              Steps: 1) Click Apply → 2) Choose licence tier → 3) Secure your spot & start learning.
+            </p>
+          </td>
+        </tr>
+
+        <!-- FEATURES -->
+        <tr>
+          <td class="content" style="padding-top:0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="50%" style="padding-right:8px; text-align:center;">
+                  <i class="fas fa-chalkboard-teacher feature-icon"></i>
+                  <h3 style="font-size:18px; color:#007749; margin:12px 0 8px;">Hands-On Workshops</h3>
+                  <p style="font-size:14px; color:#333;">Small-group training with licensed instructors.</p>
+                </td>
+                <td width="50%" style="padding-left:8px; text-align:center;">
+                  <i class="fas fa-laptop-code feature-icon"></i>
+                  <h3 style="font-size:18px; color:#007749; margin:12px 0 8px;">Digital Learning</h3>
+                  <p style="font-size:14px; color:#333;">Self-paced modules you can access anytime.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- FOOTER & P.S. -->
+        <tr>
+          <td class="footer">
+            <p>P.S. The <strong>first 50</strong> applicants receive a complimentary one-on-one mentoring session!</p>
+            <p>Jamaica Football Federation<br>45 Stadium Drive, Kingston, Jamaica</p>
+            <p>
+              <a href="https://jff.football/unsubscribe">Unsubscribe</a> |
+              <a href="https://jff.football">Visit jff.football</a>
+            </p>
+            <p class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>
