@@ -49,15 +49,18 @@
     .content { padding:24px; line-height:1.6; }
     .content h2 { font-size:24px; color:#007749; margin-bottom:12px; }
     .content p { font-size:16px; margin-bottom:16px; }
-    .content ul { padding-left:20px; margin-bottom:24px; }
-    .content li { margin-bottom:8px; }
+
+    /* BULLETS WITH ICONS */
+    .bullet-list { list-style:none; padding:0; margin-bottom:24px; }
+    .bullet-list li { margin-bottom:12px; font-size:16px; display:flex; align-items:center; }
+    .bullet-icon { font-size:20px; color:#007749; margin-right:8px; }
 
     /* BUTTON */
     .btn { display:inline-block; background:#007749; color:#fff;
            font-family:'Inter', Arial, sans-serif; font-size:16px; font-weight:600;
            padding:14px 24px; border-radius:4px; text-align:center; }
 
-    /* ICONS */
+    /* FEATURES */
     .feature-icon { font-size:48px; color:#007749; margin-bottom:8px; }
     .social-icons i { font-size:20px; margin:0 8px; color:#FFB81C; }
 
@@ -102,10 +105,20 @@
             <!-- Social Proof & Urgency -->
             <p style="font-size:14px; color:#555;">Join <strong>300+</strong> coaches who’ve already applied. <em>Only 30 spots left!</em></p>
 
-            <ul>
-              <li>Standardised certifications aligned with world-class best practices</li>
-              <li>Access to advanced workshops, digital modules, and peer mentorship</li>
-              <li>License renewal every three years to keep your credentials current</li>
+            <!-- Iconic Bullet Points -->
+            <ul class="bullet-list">
+              <li>
+                <i class="fas fa-certificate bullet-icon"></i>
+                Standardised certifications aligned with world-class best practices
+              </li>
+              <li>
+                <i class="fas fa-chalkboard-teacher bullet-icon"></i>
+                Access to advanced workshops, digital modules, and peer mentorship
+              </li>
+              <li>
+                <i class="fas fa-sync-alt bullet-icon"></i>
+                License renewal every three years to keep your credentials current
+              </li>
             </ul>
 
             <p style="text-align:center;">
@@ -142,7 +155,7 @@
         <!-- FOOTER & P.S. -->
         <tr>
           <td class="footer">
-            <p>P.S. The <strong>first 50</strong> applicants receive a complimentary one-on-one mentoring session!</p>
+            <p>P.S. The <strong>first 50 applicants</strong> receive a complimentary one-on-one mentoring session!</p>
             <p>Jamaica Football Federation<br>45 Stadium Drive, Kingston, Jamaica</p>
             <p>
               <a href="https://jff.football/unsubscribe">Unsubscribe</a> |
