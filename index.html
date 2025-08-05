@@ -31,7 +31,7 @@
 
     /* TYPOGRAPHY */
     body, td { font-family:'Poppins', Arial, sans-serif; color:#000; }
-    h1,h2,h3 { font-family:'Inter', Arial, sans-serif; margin:0; }
+    h1, h2, h3 { font-family:'Inter', Arial, sans-serif; margin:0; }
     a { text-decoration:none; }
 
     /* LAYOUT */
@@ -62,115 +62,179 @@
 
     /* FEATURES */
     .feature-icon { font-size:48px; color:#007749; margin-bottom:8px; }
-    .social-icons i { font-size:20px; margin:0 8px; color:#FFB81C; }
 
     /* FOOTER */
     .footer { background:#000; color:#fff; padding:20px; font-size:12px; text-align:center; }
     .footer a { color:#FFB81C; }
+    .social-icons i { font-size:20px; margin:0 8px; color:#FFB81C; }
   </style>
 </head>
 <body>
   <table role="presentation" class="wrapper" cellpadding="0" cellspacing="0">
-    <tr><td align="center">
-      <table role="presentation" class="container" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center">
+        <table role="presentation" class="container" cellpadding="0" cellspacing="0">
 
-        <!-- HEADER -->
-        <tr>
-          <td class="header">
-            <img src="https://jff.football/wp-content/uploads/2023/01/JFF_Logo.png" alt="JFF Logo">
-          </td>
-        </tr>
+          <!-- Header -->
+          <tr>
+            <td class="header">
+              <img src="https://jff.football/wp-content/uploads/2023/01/JFF_Logo.png" alt="JFF Logo">
+            </td>
+          </tr>
 
-        <!-- HERO -->
-        <tr>
-          <td class="hero">
-            <img src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg" alt="Coaching Relaunch">
-          </td>
-        </tr>
+          <!-- Hero -->
+          <tr>
+            <td class="hero">
+              <img src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg" alt="Coaching Relaunch">
+            </td>
+          </tr>
 
-        <!-- MAIN CONTENT -->
-        <tr>
-          <td class="content">
-            <!-- Invisible Preheader -->
-            <div style="font-size:1px; color:#f4f4f4; line-height:1px; max-height:0; opacity:0; overflow:hidden;">
-              Join 300+ coaches nationwide—applications close Sept 30.
-            </div>
+          <!-- Main Content -->
+          <tr>
+            <td class="content">
+              <!-- Hidden Preheader -->
+              <div style="font-size:1px; color:#f4f4f4; line-height:1px; max-height:0; opacity:0; overflow:hidden;">
+                Join 300+ coaches nationwide—applications close Sept 30.
+              </div>
 
-            <!-- Personalized Greeting -->
-            <p style="font-size:16px; margin-bottom:16px;">Hi <strong>{{first_name}}</strong>,</p>
+              <!-- Personalized Greeting -->
+              <p style="font-size:16px; margin-bottom:16px;">Hi <strong>{{first_name}}</strong>,</p>
 
-            <h2>Level Up Your Coaching Career</h2>
-            <p>The Jamaica Football Federation has relaunched its Coaching Education Programme—now C-Level certified by the CONCACAF Coaching Convention.</p>
+              <h2>Level Up Your Coaching Career</h2>
+              <p>The Jamaica Football Federation has relaunched its Coaching Education Programme—now C-Level certified by the CONCACAF Coaching Convention.</p>
 
-            <!-- Social Proof & Urgency -->
-            <p style="font-size:14px; color:#555;">Join <strong>300+</strong> coaches who’ve already applied. <em>Only 30 spots left!</em></p>
+              <!-- Social Proof & Urgency -->
+              <p style="font-size:14px; color:#555;">Join <strong>300+</strong> coaches who’ve already applied. <em>Only 30 spots left!</em></p>
 
-            <!-- Iconic Bullet Points -->
-            <ul class="bullet-list">
-              <li>
-                <i class="fas fa-certificate bullet-icon"></i>
-                Standardised certifications aligned with world-class best practices
-              </li>
-              <li>
-                <i class="fas fa-chalkboard-teacher bullet-icon"></i>
-                Access to advanced workshops, digital modules, and peer mentorship
-              </li>
-              <li>
-                <i class="fas fa-sync-alt bullet-icon"></i>
-                License renewal every three years to keep your credentials current
-              </li>
-            </ul>
+              <!-- Iconic Bullet Points -->
+              <ul class="bullet-list">
+                <li>
+                  <i class="fas fa-certificate bullet-icon"></i>
+                  Standardised certifications aligned with world-class best practices
+                </li>
+                <li>
+                  <i class="fas fa-chalkboard-teacher bullet-icon"></i>
+                  Access to advanced workshops, digital modules, and peer mentorship
+                </li>
+                <li>
+                  <i class="fas fa-sync-alt bullet-icon"></i>
+                  License renewal every three years to keep your credentials current
+                </li>
+              </ul>
 
-            <p style="text-align:center;">
-              <a href="https://jff.football/apply?ref=email_{{first_name}}" class="btn">Apply Now</a>
-            </p>
+              <!-- CTA Button -->
+              <p style="text-align:center;">
+                <a href="https://jff.football/apply?ref=email_{{first_name}}" class="btn">Apply Now</a>
+              </p>
 
-            <!-- Next Steps -->
-            <p style="font-size:14px; color:#555;">
-              Steps: 1) Click Apply → 2) Choose licence tier → 3) Secure your spot & start learning.
-            </p>
-          </td>
-        </tr>
+              <!-- STEPS SECTION -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:24px 0;">
+                <tr>
+                  <td>
+                    <div style="display:flex; justify-content:space-between; text-align:center;">
 
-        <!-- FEATURES -->
-        <tr>
-          <td class="content" style="padding-top:0;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-              <tr>
-                <td width="50%" style="padding-right:8px; text-align:center;">
-                  <i class="fas fa-chalkboard-teacher feature-icon"></i>
-                  <h3 style="font-size:18px; color:#007749; margin:12px 0 8px;">Hands-On Workshops</h3>
-                  <p style="font-size:14px; color:#333;">Small-group training with licensed instructors.</p>
-                </td>
-                <td width="50%" style="padding-left:8px; text-align:center;">
-                  <i class="fas fa-laptop-code feature-icon"></i>
-                  <h3 style="font-size:18px; color:#007749; margin:12px 0 8px;">Digital Learning</h3>
-                  <p style="font-size:14px; color:#333;">Self-paced modules you can access anytime.</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
+                      <!-- Step 1 -->
+                      <div style="flex:1; padding:0 4px;">
+                        <div style="
+                          width:32px; height:32px;
+                          background:#007749; color:#ffffff;
+                          border-radius:50%;
+                          display:flex; align-items:center; justify-content:center;
+                          margin:0 auto 8px;
+                          font-family:'Inter',sans-serif;
+                          font-weight:700;
+                        ">
+                          1
+                        </div>
+                        <p style="margin:0; font-size:14px; color:#333;">
+                          Click <strong>Apply</strong>
+                        </p>
+                      </div>
 
-        <!-- FOOTER & P.S. -->
-        <tr>
-          <td class="footer">
-            <p>P.S. The <strong>first 50 applicants</strong> receive a complimentary one-on-one mentoring session!</p>
-            <p>Jamaica Football Federation<br>45 Stadium Drive, Kingston, Jamaica</p>
-            <p>
-              <a href="https://jff.football/unsubscribe">Unsubscribe</a> |
-              <a href="https://jff.football">Visit jff.football</a>
-            </p>
-            <p class="social-icons">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
-            </p>
-          </td>
-        </tr>
+                      <!-- Step 2 -->
+                      <div style="flex:1; padding:0 4px;">
+                        <div style="
+                          width:32px; height:32px;
+                          background:#007749; color:#ffffff;
+                          border-radius:50%;
+                          display:flex; align-items:center; justify-content:center;
+                          margin:0 auto 8px;
+                          font-family:'Inter',sans-serif;
+                          font-weight:700;
+                        ">
+                          2
+                        </div>
+                        <p style="margin:0; font-size:14px; color:#333;">
+                          Choose licence tier
+                        </p>
+                      </div>
 
-      </table>
-    </td></tr>
+                      <!-- Step 3 -->
+                      <div style="flex:1; padding:0 4px;">
+                        <div style="
+                          width:32px; height:32px;
+                          background:#007749; color:#ffffff;
+                          border-radius:50%;
+                          display:flex; align-items:center; justify-content:center;
+                          margin:0 auto 8px;
+                          font-family:'Inter',sans-serif;
+                          font-weight:700;
+                        ">
+                          3
+                        </div>
+                        <p style="margin:0; font-size:14px; color:#333;">
+                          Secure your spot &<br>start learning
+                        </p>
+                      </div>
+
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Features -->
+          <tr>
+            <td class="content" style="padding-top:0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="50%" style="padding-right:8px; text-align:center; vertical-align:top;">
+                    <i class="fas fa-chalkboard-teacher feature-icon"></i>
+                    <h3 style="font-size:18px; color:#007749; margin:12px 0 8px;">Hands-On Workshops</h3>
+                    <p style="font-size:14px; color:#333;">Small-group training with licensed instructors.</p>
+                  </td>
+                  <td width="50%" style="padding-left:8px; text-align:center; vertical-align:top;">
+                    <i class="fas fa-laptop-code feature-icon"></i>
+                    <h3 style="font-size:18px; color:#007749; margin:12px 0 8px;">Digital Learning</h3>
+                    <p style="font-size:14px; color:#333;">Self-paced modules you can access anytime.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer & P.S. -->
+          <tr>
+            <td class="footer">
+              <p>P.S. The <strong>first 50</strong> applicants receive a complimentary one-on-one mentoring session!</p>
+              <p>Jamaica Football Federation<br>45 Stadium Drive, Kingston, Jamaica</p>
+              <p>
+                <a href="https://jff.football/unsubscribe">Unsubscribe</a> |
+                <a href="https://jff.football">Visit jff.football</a>
+              </p>
+              <p class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
   </table>
 </body>
 </html>
